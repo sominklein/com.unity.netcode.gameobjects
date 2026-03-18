@@ -1340,7 +1340,7 @@ namespace Unity.Netcode
         // Ensures that the NetworkManager is cleaned up before OnDestroy is run on NetworkObjects and NetworkBehaviours when quitting the application.
         private void OnApplicationQuit()
         {
-            OnDestroy();
+            //OnDestroy();
         }
 
         // Note that this gets also called manually by OnSceneUnloaded and OnApplicationQuit
